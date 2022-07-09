@@ -145,18 +145,36 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                     GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-Hi👋 @${num.split("@")[0]},
-Welcome To ${metadata.subject}
+Hi👋 @${num.split("@")[0]} Kontol,
+Welcome To Group Siksaan Neraka
 
-Description: ${metadata.desc}
+Subscribe Yt Gw Ajg :
+https://youtube.com/channel/UCY6WNM6jZlmfWULcG69rNbQ
 
-Group Link: https://chat.whatsapp.com/HXVzUWVrbQ938Mn0R1BE7Q
+Gabung Grup Gw Kontol : 
+😈₲ⱤɄ₱ ฿Ø₮Ⱬ ꋬꇙꌦꋪꋬꊰ 6ꌦꄲ꒤꒤¹😈
 
-Welcome To Our Group!`} )
+GROUP 1: 
+
+https://chat.whatsapp.com/CRrj0z3HgeX39XHNUt0M9V
+
+GROUP 2 :
+
+https://chat.whatsapp.com/Da7ZPf7mC8T3nERBpWPcgt
+
+GROUP 3 :
+
+https://chat.whatsapp.com/BdwNQqYBwDN5UtvievnDEe
+`} )
                 } else if (anu.action == 'remove') {
                     GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Left ${metadata.subject}
+Kontol @${num.split("@")[0]} Yatim Malah Out,
 
-🧚Good Bye😌✨` })
+Motivasi : 
+Tetap Putus Asa
+Jangan Pernah Semangat
+Dan jadilah yatim beban keluarga
+` })
                 }
             }
         } catch (err) {
