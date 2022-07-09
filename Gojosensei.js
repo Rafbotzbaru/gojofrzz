@@ -245,14 +245,14 @@ const reply = (teks) => {
 	  //antilink\\
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
-        reply(`「 ANTI LINK 」\n\nYou have been detected sending a group link, sorry you will be kicked !`)
-        if (!isBotAdmins) return reply(`I Am Not An Admin, How Could I Kick Somebody Who Send Link 😒`)
+        reply(`「 ANTI LINK 」\n\nKontol Member Yatim Malah Share Link Lu Ajg`)
+        if (!isBotAdmins) return reply(`Kontol Malah Gw Bukan Admin Ajg`)
         let gclink = (`https://chat.whatsapp.com/`+await GojoMdNx.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
-        if (isgclink) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Sent This Group Link❤️`)
-        if (isAdmins) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are An Admin Of The Group❤️`)
-        if (isCreator) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are My Owner Hahahahah🤣😘, You Think I Will Betray You Huh🐦`)
+        if (isgclink) return reply(`Eh Ternyata LINK gc inu Njir🗿🗿`)
+        if (isAdmins) return reply(`EH FREZZ BOT G JADI NGE KICK LU🗿,Lu Ternyata Admin🗿`)
+        if (isCreator) return reply(`Hy Owner Ganteng, Gw G Jadi Ngekick Elu, Ternyata Elu Owner Ganteng Gw😚`)
         GojoMdNx.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
         }
@@ -326,8 +326,8 @@ const reply = (teks) => {
             }
             let isWin = room.terjawab.length === room.terjawab.filter(v => v).length
             let caption = `
-Answer The Following Questions :\n${room.soal}\n\n\nThere Is ${room.jawaban.length} Answer ${room.jawaban.find(v => v.includes(' ')) ? `(Some Answers Have Spaces)` : ''}
-${isWin ? `All Answers Answered` : isSurender ? 'Surrender!' : ''}
+Jawab Pertanyaan Frez Bot :\n${room.soal}\n\n\nAda ${room.jawaban.length} Beberapa ${room.jawaban.find(v => v.includes(' ')) ? `(Jawaban Lu Yg Dispasi Tolol)` : ''}
+${isWin ? `Semua Jawaban Terjawab` : isSurender ? 'Surrender!' : ''}
 ${Array.from(room.jawaban, (jawaban, index) => {
         return isSurender || room.terjawab[index] ? `(${index + 1}) ${jawaban} ${room.terjawab[index] ? '@' + room.terjawab[index].split('@')[0] : ''}`.trim() : false
     }).filter(v => v).join('\n')}
@@ -340,27 +340,27 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = tebaklagu[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await GojoMdNx.sendButtonText(m.chat, [{ buttonId: 'guess song', buttonText: { displayText: 'Guess The Song' }, type: 1 }], `🎮 Guess The Music 🎮\n\nCorrect Answer 🎉\n\nWant To Play Again? Press The Button Below`, GojoMdNx.user.name, m)
+                await GojoMdNx.sendButtonText(m.chat, [{ buttonId: 'tebaklagu', buttonText: { displayText: 'Tebak Lagu Frezz Bot' }, type: 1 }], `🎮 Tebak Lagu Frezz Bot🎮\n\nCorrect Answer 🎉\n\nMau Main Lagi Dek? Pencet Buttonnya Frezz Bot Dibawah Dek`, GojoMdNx.user.name, m)
                 delete tebaklagu[m.sender.split('@')[0]]
-            } else reply('*Wrong Answer!*')
+            } else reply('Jawaban Salah Tolol')
         }
 
         if (kuismath.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = kuismath[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await reply(`🎮 Math Quiz 🎮\n\nCorrect Answer 🎉\n\nWant To Play Again? Send ${prefix}math mode`)
+                await reply(`🎮 Kuis Matematika Frezz Bot 🎮\n\nJawabannya Benar Tolol🎉\n\nMau Main Lagi Dek? Ketik ${prefix}math <mode>`)
                 delete kuismath[m.sender.split('@')[0]]
-            } else reply('*Wrong Answer!*')
+            } else reply('*Jawaban Salah Tolol*')
         }
 
         if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakgambar[m.sender.split('@')[0]]
             if (budy.toLowerCase() == jawaban) {
-                await GojoMdNx.sendButtonText(m.chat, [{ buttonId: 'guess picture', buttonText: { displayText: 'Guess The Picture' }, type: 1 }], `🎮 Guess The Picture 🎮\n\nCorrect Answer 🎉\n\nWant To Play Again? Press The Button Below`, GojoMdNx.user.name, m)
+                await GojoMdNx.sendButtonText(m.chat, [{ buttonId: 'tebakgambar', buttonText: { displayText: 'Tebak Gambar Frezz Bot' }, type: 1 }], `🎮 Tebak Gambar Frezz Bot 🎮\n\nJawabannya Benar Tolol 🎉\n\nMau Main Lagi Dek? Pencet Buttonnya Frezz Bot Dek`, GojoMdNx.user.name, m)
                 delete tebakgambar[m.sender.split('@')[0]]
-            } else reply('*Wrong Answer!*')
+            } else reply('*Jawaban Salah Tolol*')
         }
 
         if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
@@ -1321,7 +1321,7 @@ GojoMdNx.sendMessage(from, { text: `Question : ${q}\nAnswer : *${kapankah}*` }, 
 					break
 case 'wangy':
               if (!text) return replay(`Use Text, Example : ${prefix + command} hinata`)
-              qq = q.toUpperCase()
+              qq = q.toCase()
               awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaah the smell of hair ${qq} smelly i want to smell the fragrance ${qq} AAAAAAAAH ~ Her hair.... aaah i want to stroke her hair too ~~ AAAAAH ${qq} first time out in anime is cute too ❤️ ❤️ ❤️ so AAAAAAAH ${qq} AAAAAA LUCCUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️what ? ${qq} it's not real ? Just HELL you say ? no, no no no no no no no no no no no no no no no !! I DON'T CARE ABOUT THE REALITY, I DON'T CARE. ❤️ ❤️ ❤️ ${qq} me ... ${qq} on the laptop watching me, ${qq} .. you believe in me ? aaaaaaaaaaah thanks ${q} I don't want to give up ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH I STILL HAVE ${qq} ALSO NOT THE SAME AAAAAAAAAAAAAAH`
              reply(awikwok)
               break
@@ -3383,7 +3383,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
                             hydratedFooterText: `┏━❬νιнαηgα м∂🧚❭
 
-Hello 👋..
+Hell 👋..
 
     Im Alive Now 😼
 
