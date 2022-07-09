@@ -155,7 +155,6 @@ Group Link : https://chat.whatsapp.com/CRrj0z3HgeX39XHNUt0M9V
 Welcome To Our Group!`} )
                 } else if (anu.action == 'remove') {
                     GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Left ${metadata.subject}
-
 Good Bye` })
                 }
             }
