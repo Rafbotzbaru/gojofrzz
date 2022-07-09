@@ -1,7 +1,7 @@
 //═══════════════════════════════════════════════════════//
 //
-//                              𝙶𝙾𝙹𝙾-𝚂𝙰𝚃𝙾𝚁𝚄 𝓫𝔂 𝓷𝓮𝔁𝓾𝓼𝓝𝔀
-//𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
+//                              FREZZ BOT BY ASYRAF 6YOUU
+//SCRIPT RECODE BY ASYRAF 6YOUU
 //
 //════════════════════════════//
 
@@ -19,42 +19,42 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94763427338']
-global.premium = ['94763427338']
-global.ownernomer = '94763427338'
-global.ownername = 'νιнαηgα м∂🧚'
-global.botname = 'νιнαηgα м∂🧚'
-global.footer = 'νιнαηgα м∂🧚.'
-global.ig = 'https://github.com/vihangaabot'
-global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/vihangabot/Gojo-Satoru'
-global.myweb = 'https://youtu.be/Z9rIR0Vopb8'
-global.packname = 'Gojo-Satoru'
-global.author = 'νιнαηgα м∂🧚'
+global.owner = ['6281946945315']
+global.premium = ['6281946945315']
+global.ownernomer = '6281946945315'
+global.ownername = 'ASYRAF 6YOYU'
+global.botname = 'FREZZ BOT'
+global.footer = 'FREZZ BOT By ASYRAF 6YOUU'
+global.ig = 'https://instagram/asyrafsixyouu'
+global.region = 'Madura, Jawa Timur, Indonesia'
+global.sc = 'https://wa.me/6281946945315'
+global.myweb = 'https://youtube.com/channel/UCY6WNM6jZlmfWULcG69rNbQ'
+global.packname = 'Sticker By'
+global.author = 'FREZZ BOT'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
-global.sp = '🧚'
+global.sp = '😎'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
-    error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    success: 'SUSCCES MENGHAMILKAN KAK ROS TOLOL✓',
+    admin: 'LU BUKAN ADMIN TOLOL, LU CUMAN MEMBER KONTOL',
+    botAdmin: 'Bot Bukan Admin Tolol Kontol',
+    owner: 'Lu Cuman User Tolol,Lu Bukan Owner Gw Kontol',
+    group: 'Khusus Di Group Bokep Tolol',
+    private: 'Khusus Di Chat Pribadi Tolol Kontol',
+    bot: 'Khusus Bot Tolol, Lu Cuman Manusia Bandar Bokep Kontol',
+    wait: 'Sedang Mencoli Kak Ros....',
+    error: 'Error Tolol'
+    endLimit: 'Limit Lu Habis Kontol, Beli Ke Owner/Tunggu Sampe Di Coli Setiap 12 Jam  Kontol',
 }
     global.limitawal = {
     premium: "Infinity",
     free: 12,
-    monayawal: 1000
+    monayawal: 10000
 }
    global.rpg = {
    darahawal: 100,
    besiawal: 15,
-   goldawal: 10,
+   goldawal: 5,
    emeraldawal: 5,
    umpanawal: 5,
    potionawal: 1
