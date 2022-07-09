@@ -3598,7 +3598,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Thanks To",
-										"description": "Displays The List Of Credit Of The Bot !!",
+										"description": "Displays The List Of Credit Of The",
 										"rowId": `${prefix}tqtt`
 									}
 								]
@@ -3611,11 +3611,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c15f725add0381fb69c4b.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c15f725add0381fb69c4b.jpg' }, caption: `Sewa & Donate\nFRESS BOT\n\nSEWA BOT :\nPERMANEN : 20k\n\nDONASI :\nDANA : 085646606905\nGOPAY : 081946945315\nPULSA : 085646606905` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/nexusNw/Gojo-Satoru\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`Sc Ori : Minta Ke Owner\nSc Recode : Buy Ke Owner`)
             }
             break
 case 'allmenu': {
